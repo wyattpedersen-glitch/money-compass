@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { PasscodeGate } from "@/components/layout/PasscodeGate";
+import { BootSync } from "@/components/layout/BootSync";
 import { themeBootScript } from "@/lib/theme";
 import { expectedPasscodeHash, gateBootScript } from "@/lib/gate/hash";
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeBootScript + gateBootScript(expectedPasscodeHash) }} />
       </head>
       <body className="min-h-dvh font-sans">
+        <BootSync />
         <PasscodeGate />
         <div id="app" className="flex min-h-dvh flex-col">
           <SiteHeader />

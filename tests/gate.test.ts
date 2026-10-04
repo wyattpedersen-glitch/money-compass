@@ -54,3 +54,19 @@ describe("boot scripts", () => {
     document.documentElement.classList.remove("dark");
   });
 });
+
+describe("applyBootState (re-applied after client renders)", () => {
+  it("locks, unlocks and applies the saved theme", async () => {
+    const { applyBootState } = await import("@/lib/boot");
+    window.matchMedia = (() => ({ matches: false })) as unknown as typeof window.matchMedia;
+    localStorage.clear();
+    localStorage.setItem("eco:theme", "dark");
+    applyBootState("abc");
+    expect(document.documentElement.getAttribute("data-gate")).toBe("locked");
+    expect(document.documentElement.classList.contains("dark")).toBe(true);
+    localStorage.setItem("eco:gate", "abc");
+    applyBootState("abc");
+    expect(document.documentElement.getAttribute("data-gate")).toBeNull();
+    document.documentElement.classList.remove("dark");
+  });
+});
