@@ -58,6 +58,8 @@ export const appDataSchema = z.looseObject({
     .looseObject({
       result: quizResultSchema,
       takenAt: z.string(),
+      startWithBudget: z.boolean().optional(),
+      struggling: z.boolean().optional(),
     })
     .nullable()
     .default(null),

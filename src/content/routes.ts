@@ -18,6 +18,8 @@ export const builtPages = new Set<string>([
   "/glossary/",
   "/sources/",
   "/settings/",
+  "/quiz/",
+  "/progress/",
 ]);
 
 export function isAvailable(href: string): boolean {

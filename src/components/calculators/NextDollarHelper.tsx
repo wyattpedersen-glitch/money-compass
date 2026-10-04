@@ -123,13 +123,15 @@ export function NextDollarHelper() {
         {steps.map((s, i) => (
           <li
             key={s.id}
-            className={`rounded-lg border p-3 ${s.id === next?.id ? "border-accent" : "border-border"} ${s.notApplicable ? "opacity-60" : ""}`}
+            className={`rounded-lg border p-3 ${s.id === next?.id ? "border-accent" : "border-border"} ${s.notApplicable ? "border-dashed bg-surface-2" : ""}`}
           >
             <div className="flex flex-wrap items-center gap-2 font-medium">
               <span className="text-muted">{i + 1}.</span> {s.title}
               {s.done && <span className="rounded-full bg-accent-soft px-2 py-0.5 text-xs text-accent">Done</span>}
               {s.notApplicable && (
-                <span className="rounded-full bg-surface-2 px-2 py-0.5 text-xs text-muted">Doesn&apos;t apply</span>
+                <span className="rounded-full border border-border bg-bg px-2 py-0.5 text-xs text-muted">
+                  Doesn&apos;t apply
+                </span>
               )}
             </div>
             <p className="mt-1 text-sm leading-relaxed text-muted">{why[s.id]}</p>
