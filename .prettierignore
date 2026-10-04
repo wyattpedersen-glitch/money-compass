@@ -1,0 +1,5 @@
+*.mdx
+SOURCES.md
+CONTENT_REVIEW.md
+out
+.next

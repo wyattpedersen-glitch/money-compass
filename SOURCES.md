@@ -81,15 +81,55 @@ Every reference used on the site, grouped by the section that cites it. The same
 - **Thaler, R. H. & Benartzi, S.** (2004). *Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving*. Journal of Political Economy, 112(S1), S164–S187. <https://doi.org/10.1086/380085> _(link not yet re-checked)_
 - **Warren, E. & Tyagi, A. W.** (2005). *All Your Worth: The Ultimate Lifetime Money Plan*. Free Press. <https://www.simonandschuster.com/books/All-Your-Worth/Elizabeth-Warren/9780743269872> _(link not yet re-checked)_
 
+## Credit, loans and debt
+
+- **Administrative Office of the U.S. Courts**. *Bankruptcy Basics*. <https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics> _(link not yet re-checked)_
+- **Amar, M., Ariely, D., Ayal, S., Cryder, C. E. & Rick, S. I.** (2011). *Winning the Battle but Losing the War: The Psychology of Debt Management*. Journal of Marketing Research, 48(SPL), S38–S50. <https://doi.org/10.1509/jmkr.48.SPL.S38> _(link not yet re-checked)_
+- **Board of Governors of the Federal Reserve System**. *Consumer Credit – G.19 (interest rates on credit card plans)*. <https://www.federalreserve.gov/releases/g19/current/default.htm> _(link not yet re-checked)_
+- **California State Board of Equalization**. *California Property Tax: An Overview (Publication 29)*. <https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *Auto loans*. <https://www.consumerfinance.gov/consumer-tools/auto-loans/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau** (2022). *Buy Now, Pay Later: Market trends and consumer impacts*. <https://www.consumerfinance.gov/data-research/research-reports/buy-now-pay-later-market-trends-and-consumer-impacts/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *Buying a House: Tools and resources for homebuyers*. <https://www.consumerfinance.gov/owning-a-home/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *Credit reports and scores*. <https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *Debt collection*. <https://www.consumerfinance.gov/consumer-tools/debt-collection/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *How long does negative information remain on my credit report?* <https://www.consumerfinance.gov/ask-cfpb/how-long-does-negative-information-remain-on-my-credit-report-en-323/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is a credit report?* Ask CFPB. <https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-report-en-309/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is a credit score?* Ask CFPB. <https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is a debt-to-income ratio?* <https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is a grace period for a credit card?* <https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is a payday loan?* <https://www.consumerfinance.gov/ask-cfpb/what-is-a-payday-loan-en-1567/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is private mortgage insurance?* <https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is the difference between a loan interest rate and the APR?* Ask CFPB. <https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/> _(link not yet re-checked)_
+- **Federal Trade Commission**. *Disputing Errors on Your Credit Reports*. <https://consumer.ftc.gov/articles/disputing-errors-your-credit-reports> _(link not yet re-checked)_
+- **Federal Trade Commission**. *Free Credit Reports*. <https://consumer.ftc.gov/articles/free-credit-reports> _(link not yet re-checked)_
+- **Federal Trade Commission**. *How To Get Out of Debt*. <https://consumer.ftc.gov/articles/how-get-out-debt> _(link not yet re-checked)_
+- **FICO**. *What's in my FICO Scores?* myFICO. <https://www.myfico.com/credit-education/whats-in-your-credit-score> _(link not yet re-checked)_
+- **Gal, D. & McShane, B. B.** (2012). *Can Small Victories Help Win the War? Evidence from Consumer Debt Management*. Journal of Marketing Research, 49(4), 487–501. <https://doi.org/10.1509/jmr.11.0272> _(link not yet re-checked)_
+- **Jordà, Ò., Knoll, K., Kuvshinov, D., Schularick, M. & Taylor, A. M.** (2019). *The Rate of Return on Everything, 1870–2015*. The Quarterly Journal of Economics, 134(3), 1225–1298. <https://doi.org/10.1093/qje/qjz012> _(link not yet re-checked)_
+- **Kettle, K. L., Trudel, R., Blanchard, S. J. & Häubl, G.** (2016). *Repayment Concentration and Consumer Motivation to Get Out of Debt*. Journal of Consumer Research, 43(3), 460–477. <https://doi.org/10.1093/jcr/ucw037> _(link not yet re-checked)_
+- **National Foundation for Credit Counseling**. *NFCC: nonprofit credit counseling*. <https://www.nfcc.org/> _(link not yet re-checked)_
+- **S&P Dow Jones Indices, via Federal Reserve Bank of St. Louis (FRED)**. *S&P CoreLogic Case-Shiller U.S. National Home Price Index (CSUSHPINSA)*. <https://fred.stlouisfed.org/series/CSUSHPINSA> _(link not yet re-checked)_
+- **U.S. Department of Education, Federal Student Aid**. *Federal Interest Rates and Fees*. <https://studentaid.gov/understand-aid/types/loans/interest-rates> _(link not yet re-checked)_
+- **U.S. Department of Education, Federal Student Aid**. *Public Service Loan Forgiveness (PSLF)*. <https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service> _(link not yet re-checked)_
+- **U.S. Department of Education, Federal Student Aid**. *Subsidized and Unsubsidized Loans*. <https://studentaid.gov/understand-aid/types/loans/subsidized-unsubsidized> _(link not yet re-checked)_
+- **U.S. Department of Housing and Urban Development**. *Find a HUD-approved housing counseling agency*. <https://www.hud.gov/counseling> _(link not yet re-checked)_
+- **U.S. Department of Justice, U.S. Trustee Program**. *Credit Counseling & Debtor Education Courses*. <https://www.justice.gov/ust/credit-counseling-debtor-education-information> _(link not yet re-checked)_
+
 ## General and glossary
 
 - **Consumer Financial Protection Bureau**. *An essential guide to building an emergency fund*. <https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *Buying a House: Tools and resources for homebuyers*. <https://www.consumerfinance.gov/owning-a-home/> _(link not yet re-checked)_
 - **Consumer Financial Protection Bureau**. *Choosing a financial advisor*. Ask CFPB. <https://www.consumerfinance.gov/consumer-tools/retirement/choosing-financial-advisor/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *Credit reports and scores*. <https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/> _(link not yet re-checked)_
 - **Consumer Financial Protection Bureau**. *Regulation DD (Truth in Savings), 12 CFR Part 1030*. <https://www.consumerfinance.gov/rules-policy/regulations/1030/> _(link not yet re-checked)_
 - **Consumer Financial Protection Bureau**. *What is a credit report?* Ask CFPB. <https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-report-en-309/> _(link not yet re-checked)_
 - **Consumer Financial Protection Bureau**. *What is a credit score?* Ask CFPB. <https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is a debt-to-income ratio?* <https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is a grace period for a credit card?* <https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *What is private mortgage insurance?* <https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/> _(link not yet re-checked)_
 - **Consumer Financial Protection Bureau**. *What is the difference between a loan interest rate and the APR?* Ask CFPB. <https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/> _(link not yet re-checked)_
 - **Consumer Financial Protection Bureau**. *Your Money, Your Goals: A financial empowerment toolkit*. <https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/> _(link not yet re-checked)_
+- **FICO**. *What's in my FICO Scores?* myFICO. <https://www.myfico.com/credit-education/whats-in-your-credit-score> _(link not yet re-checked)_
 - **Internal Revenue Service**. *401(k) plans*. <https://www.irs.gov/retirement-plans/401k-plans> _(link not yet re-checked)_
 - **Internal Revenue Service**. *Choosing a tax professional*. <https://www.irs.gov/tax-professionals/choosing-a-tax-professional> _(link not yet re-checked)_
 - **Internal Revenue Service**. *Individual retirement arrangements (IRAs)*. <https://www.irs.gov/retirement-plans/individual-retirement-arrangements-iras> _(link not yet re-checked)_
@@ -97,5 +137,6 @@ Every reference used on the site, grouped by the section that cites it. The same
 - **Internal Revenue Service**. *Tax withholding*. <https://www.irs.gov/payments/tax-withholding> _(link not yet re-checked)_
 - **National Foundation for Credit Counseling**. *NFCC: nonprofit credit counseling*. <https://www.nfcc.org/> _(link not yet re-checked)_
 - **U.S. Bureau of Labor Statistics**. *Consumer Price Index (CPI)*. <https://www.bls.gov/cpi/> _(link not yet re-checked)_
+- **U.S. Department of Education, Federal Student Aid**. *Public Service Loan Forgiveness (PSLF)*. <https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service> _(link not yet re-checked)_
 - **U.S. Department of Housing and Urban Development**. *Find a HUD-approved housing counseling agency*. <https://www.hud.gov/counseling> _(link not yet re-checked)_
 - **U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy**. *Investor.gov Glossary*. Investor.gov. <https://www.investor.gov/introduction-investing/investing-basics/glossary> _(link not yet re-checked)_

@@ -36,7 +36,7 @@ function Transfers({ budget }: { budget: Budget }) {
   return (
     <div>
       <p>Schedule these for the day after payday, so the money moves before you can spend it:</p>
-      <ul className="mt-3 space-y-2">
+      <ul className="mt-3 list-none space-y-2 pl-0">
         {lines.map((g) => (
           <li key={g.goal.id} className="flex justify-between gap-4 rounded-md border border-border bg-bg px-3 py-2">
             <span>{g.goal.name}</span>

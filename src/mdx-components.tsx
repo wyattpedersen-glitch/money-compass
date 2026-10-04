@@ -20,6 +20,12 @@ import { DiversificationSim } from "@/components/calculators/DiversificationSim"
 import { FeeDragCalculator } from "@/components/calculators/FeeDragCalculator";
 import { NextDollarHelper } from "@/components/calculators/NextDollarHelper";
 import { AutoTransfers } from "@/components/budget/AutoTransfers";
+import { AmortizationCalculator } from "@/components/calculators/AmortizationCalculator";
+import { DebtPayoffPlanner } from "@/components/calculators/DebtPayoffPlanner";
+import { RentVsBuyCalculator } from "@/components/calculators/RentVsBuyCalculator";
+import { ScoreFactors } from "@/components/credit/ScoreFactors";
+import { UtilizationCalculator } from "@/components/credit/UtilizationCalculator";
+import { DebtWarningCheck } from "@/components/credit/DebtWarningCheck";
 import { AllocationTool } from "@/components/calculators/AllocationTool";
 import { RetirementCalculator } from "@/components/calculators/RetirementCalculator";
 
@@ -52,6 +58,12 @@ const components: MDXComponents = {
   FeeDragCalculator,
   NextDollarHelper,
   AutoTransfers,
+  AmortizationCalculator,
+  DebtPayoffPlanner,
+  RentVsBuyCalculator,
+  ScoreFactors,
+  UtilizationCalculator,
+  DebtWarningCheck,
   AllocationTool,
   RetirementCalculator,
 };

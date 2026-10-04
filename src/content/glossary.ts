@@ -165,6 +165,75 @@ export const glossary: GlossaryTerm[] = [
       "An advisor who is legally required to put your interests first. A fee-only fiduciary is paid only by you, not by commissions on products they sell you.",
     sourceId: "cfpb-financial-advisor",
   },
+  {
+    id: "credit-utilization",
+    term: "Credit utilization",
+    aliases: ["utilization", "amounts owed"],
+    definition:
+      "How much of your available credit card limits you're using. A $300 balance on a $1,000 limit is 30% utilization. Lower is better for your score.",
+    sourceId: "myfico-score-factors",
+  },
+  {
+    id: "principal",
+    term: "Principal",
+    definition: "The amount you borrowed, or what's left of it, not counting interest.",
+    sourceId: "cfpb-apr-vs-interest",
+  },
+  {
+    id: "amortization",
+    term: "Amortization",
+    aliases: ["amortizing loan"],
+    definition:
+      "Paying off a loan with equal monthly payments. Early payments are mostly interest; later ones are mostly principal.",
+    sourceId: "cfpb-owning-a-home",
+  },
+  {
+    id: "hard-inquiry",
+    term: "Hard inquiry",
+    aliases: ["hard pull", "soft inquiry"],
+    definition:
+      "A lender checking your credit because you applied for credit. It can lower your score slightly for a while. Checking your own score is a soft inquiry and doesn't affect it.",
+    sourceId: "cfpb-credit-reports-scores",
+  },
+  {
+    id: "secured-card",
+    term: "Secured credit card",
+    aliases: ["secured card"],
+    definition:
+      "A credit card backed by a cash deposit, which is usually your credit limit. It's a common way to start building credit.",
+    sourceId: "cfpb-credit-reports-scores",
+  },
+  {
+    id: "grace-period",
+    term: "Grace period",
+    definition:
+      "The time between the end of a credit card billing cycle and the payment due date. If you pay the full statement balance by then, you usually pay no interest on purchases.",
+    sourceId: "cfpb-grace-period",
+  },
+  {
+    id: "dti",
+    term: "Debt-to-income ratio (DTI)",
+    aliases: ["debt to income", "DTI"],
+    definition:
+      "Your monthly debt payments divided by your gross monthly income. Lenders use it to judge how much more you can borrow.",
+    sourceId: "cfpb-dti",
+  },
+  {
+    id: "pmi",
+    term: "PMI (private mortgage insurance)",
+    aliases: ["private mortgage insurance", "mortgage insurance"],
+    definition:
+      "Insurance that protects the lender, not you, usually required on a conventional mortgage when the down payment is under 20%. You pay for it.",
+    sourceId: "cfpb-pmi",
+  },
+  {
+    id: "pslf",
+    term: "Public Service Loan Forgiveness (PSLF)",
+    aliases: ["PSLF", "public service loan forgiveness"],
+    definition:
+      "A federal program that forgives the rest of your federal Direct Loans after 120 qualifying monthly payments while working full time for government or a qualifying nonprofit.",
+    sourceId: "studentaid-pslf",
+  },
 ];
 
 export const glossaryById: ReadonlyMap<string, GlossaryTerm> = new Map(glossary.map((t) => [t.id, t]));
