@@ -1,6 +1,7 @@
 import { figures } from "./figures.ts";
 import { lessons } from "./lessons.ts";
 import { sources } from "./sources.ts";
+import { tax2026 } from "./taxFigures.ts";
 
 /**
  * CONTENT_REVIEW.md: the checklist for keeping the site's facts current.
@@ -58,6 +59,13 @@ export function renderContentReviewMarkdown(): string {
     ),
     "",
     "⚠️ means the value hasn't been confirmed against the IRS page yet.",
+    "",
+    `### Take-home pay estimator figures (tax year ${tax2026.taxYear})${tax2026.checked ? `, checked ${tax2026.checked}` : " ⚠️ not yet confirmed"}`,
+    "",
+    `- Single-filer brackets: ${tax2026.singleBrackets.map((b) => `${Math.round(b.rate * 100)}% from $${b.from.toLocaleString("en-US")}`).join(", ")}`,
+    `- Standard deduction (single): $${tax2026.singleStandardDeduction.toLocaleString("en-US")}`,
+    `- Social Security: ${(tax2026.socialSecurityRate * 100).toFixed(1)}% up to $${tax2026.socialSecurityWageBase.toLocaleString("en-US")}; Medicare: ${(tax2026.medicareRate * 100).toFixed(2)}%`,
+    ...tax2026.sources.map((s) => `- Source: ${s.label} <${s.url}>`),
     "",
     `### Lesson review dates (${published.length} published of ${lessons.length} planned)`,
     "",

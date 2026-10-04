@@ -19,6 +19,7 @@ import { CompoundCalculator } from "@/components/calculators/CompoundCalculator"
 import { DiversificationSim } from "@/components/calculators/DiversificationSim";
 import { FeeDragCalculator } from "@/components/calculators/FeeDragCalculator";
 import { NextDollarHelper } from "@/components/calculators/NextDollarHelper";
+import { AutoTransfers } from "@/components/budget/AutoTransfers";
 import { AllocationTool } from "@/components/calculators/AllocationTool";
 import { RetirementCalculator } from "@/components/calculators/RetirementCalculator";
 
@@ -50,6 +51,7 @@ const components: MDXComponents = {
   DiversificationSim,
   FeeDragCalculator,
   NextDollarHelper,
+  AutoTransfers,
   AllocationTool,
   RetirementCalculator,
 };

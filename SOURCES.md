@@ -69,6 +69,18 @@ Every reference used on the site, grouped by the section that cites it. The same
 - **U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy**. *Ponzi scheme*. Investor.gov. <https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme> _(link not yet re-checked)_
 - **U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy**. *Red flags of fraud*. Investor.gov. <https://www.investor.gov/protect-your-investments/fraud/how-avoid-fraud/red-flags-fraud> _(link not yet re-checked)_
 
+## Budgeting plan and tracker
+
+- **Board of Governors of the Federal Reserve System**. *Economic Well-Being of U.S. Households (Survey of Household Economics and Decisionmaking)*. <https://www.federalreserve.gov/consumerscommunities/shed.htm> _(link not yet re-checked)_
+- **Clason, G. S.** (1926). *The Richest Man in Babylon*. <https://www.gutenberg.org/ebooks/search/?query=richest+man+in+babylon> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *An essential guide to building an emergency fund*. <https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/> _(link not yet re-checked)_
+- **Consumer Financial Protection Bureau**. *Spending tracker (Your Money, Your Goals tool)*. <https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_spending-tracker_tool.pdf> _(link not yet re-checked)_
+- **Johnson, E. J. & Goldstein, D.** (2003). *Do Defaults Save Lives?* Science, 302(5649), 1338–1339. <https://doi.org/10.1126/science.1091721> _(link not yet re-checked)_
+- **Madrian, B. C. & Shea, D. F.** (2001). *The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior*. The Quarterly Journal of Economics, 116(4), 1149–1187. <https://doi.org/10.1162/003355301753265543> _(link not yet re-checked)_
+- **Pyhrr, P. A.** (1970). *Zero-base budgeting*. Harvard Business Review, 48(6), 111–121. <https://hbr.org/1970/11/zero-base-budgeting> _(link not yet re-checked)_
+- **Thaler, R. H. & Benartzi, S.** (2004). *Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving*. Journal of Political Economy, 112(S1), S164–S187. <https://doi.org/10.1086/380085> _(link not yet re-checked)_
+- **Warren, E. & Tyagi, A. W.** (2005). *All Your Worth: The Ultimate Lifetime Money Plan*. Free Press. <https://www.simonandschuster.com/books/All-Your-Worth/Elizabeth-Warren/9780743269872> _(link not yet re-checked)_
+
 ## General and glossary
 
 - **Consumer Financial Protection Bureau**. *An essential guide to building an emergency fund*. <https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/> _(link not yet re-checked)_

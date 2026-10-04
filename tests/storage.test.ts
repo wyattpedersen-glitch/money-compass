@@ -5,7 +5,13 @@ import { STORAGE_KEY, __resetForTests, getData, setData, updateData } from "@/li
 
 describe("schema", () => {
   it("fills defaults for an empty document", () => {
-    expect(emptyData()).toEqual({ version: CURRENT_VERSION, updatedAt: null, progress: { completed: {} }, quiz: null });
+    expect(emptyData()).toEqual({
+      version: CURRENT_VERSION,
+      updatedAt: null,
+      progress: { completed: {} },
+      quiz: null,
+      budget: { income: 0, expenses: [], goals: [], framework: "50-30-20", entries: [] },
+    });
   });
 
   it("accepts a document with no version (treated as v1)", () => {
@@ -14,8 +20,23 @@ describe("schema", () => {
   });
 
   it("keeps unknown fields so newer data isn't trimmed", () => {
-    const r = parseAppData({ version: 1, budget: { income: 3000 } });
-    expect(r.ok && (r.data as Record<string, unknown>).budget).toEqual({ income: 3000 });
+    const r = parseAppData({ version: 1, futureFeature: { a: 1 }, budget: { income: 3000, extra: true } });
+    expect(r.ok && (r.data as Record<string, unknown>).futureFeature).toEqual({ a: 1 });
+    expect(r.ok && (r.data.budget as Record<string, unknown>).extra).toBe(true);
+  });
+
+  it("validates budget data", () => {
+    expect(
+      parseAppData({
+        version: 1,
+        budget: { goals: [{ id: "g", type: "trip", name: "x", target: 1, targetDate: "2027-01" }] },
+      }).ok,
+    ).toBe(false);
+    const ok = parseAppData({
+      version: 1,
+      budget: { goals: [{ id: "g", type: "purchase", name: "x", target: 1, targetDate: "2027-01" }] },
+    });
+    expect(ok.ok && ok.data.budget.goals[0].saved).toBe(0);
   });
 
   it("rejects data from a newer version with a helpful message", () => {

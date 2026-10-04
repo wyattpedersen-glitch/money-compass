@@ -95,7 +95,9 @@ export const lessons: LessonMeta[] = [
     slug: "automation",
     title: "Why automatic beats willpower",
     summary: "Defaults, Save More Tomorrow, and how to set your plan on autopilot.",
-    status: "planned",
+    status: "published",
+    lastReviewed: "2026-10-04",
+    minutes: 6,
   },
 
   // ---- Credit, loans and debt ----
