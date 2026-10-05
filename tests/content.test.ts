@@ -155,3 +155,13 @@ describe("CONTENT_REVIEW.md", () => {
     expect(readFileSync(join(root, "CONTENT_REVIEW.md"), "utf8")).toBe(renderContentReviewMarkdown());
   });
 });
+
+describe("lesson MDX formatting", () => {
+  it("has no Markdown lists collapsed into paragraphs (keep MDX out of Prettier)", () => {
+    const bad = contentFiles
+      .filter((f) => f.endsWith(".mdx"))
+      .filter((f) => /\S - \*\*|^ {2}- /m.test(readFileSync(f, "utf8")))
+      .map((f) => relative(root, f));
+    expect(bad).toEqual([]);
+  });
+});

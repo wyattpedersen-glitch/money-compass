@@ -27,7 +27,7 @@ The IRS announces next year's retirement contribution limits around October or N
 
 ## Current status
 
-### Sources whose link and claim haven't been re-checked (80 of 80)
+### Sources whose link and claim haven't been re-checked (105 of 105)
 
 These were cited from well-known primary sources but the live page wasn't re-opened when the content was written. Check each, then set `checked` in `src/content/sources.ts`.
 
@@ -111,6 +111,31 @@ These were cited from well-known primary sources but the live page wasn't re-ope
 - [ ] `johnson-goldstein-2003`: Do Defaults Save Lives? <https://doi.org/10.1126/science.1091721>
 - [ ] `fed-shed`: Economic Well-Being of U.S. Households (Survey of Household Economics and Decisionmaking) <https://www.federalreserve.gov/consumerscommunities/shed.htm>
 - [ ] `cfpb-bank-statements`: Spending tracker (Your Money, Your Goals tool) <https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_spending-tracker_tool.pdf>
+- [ ] `myfico-score-factors`: What's in my FICO Scores? <https://www.myfico.com/credit-education/whats-in-your-credit-score>
+- [ ] `ftc-free-credit-reports`: Free Credit Reports <https://consumer.ftc.gov/articles/free-credit-reports>
+- [ ] `ftc-disputing-errors`: Disputing Errors on Your Credit Reports <https://consumer.ftc.gov/articles/disputing-errors-your-credit-reports>
+- [ ] `cfpb-negative-info`: How long does negative information remain on my credit report? <https://www.consumerfinance.gov/ask-cfpb/how-long-does-negative-information-remain-on-my-credit-report-en-323/>
+- [ ] `cfpb-credit-reports-scores`: Credit reports and scores <https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/>
+- [ ] `cfpb-grace-period`: What is a grace period for a credit card? <https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/>
+- [ ] `cfpb-payday`: What is a payday loan? <https://www.consumerfinance.gov/ask-cfpb/what-is-a-payday-loan-en-1567/>
+- [ ] `cfpb-bnpl-2022`: Buy Now, Pay Later: Market trends and consumer impacts <https://www.consumerfinance.gov/data-research/research-reports/buy-now-pay-later-market-trends-and-consumer-impacts/>
+- [ ] `cfpb-auto-loans`: Auto loans <https://www.consumerfinance.gov/consumer-tools/auto-loans/>
+- [ ] `studentaid-loans`: Subsidized and Unsubsidized Loans <https://studentaid.gov/understand-aid/types/loans/subsidized-unsubsidized>
+- [ ] `studentaid-rates`: Federal Interest Rates and Fees <https://studentaid.gov/understand-aid/types/loans/interest-rates>
+- [ ] `studentaid-pslf`: Public Service Loan Forgiveness (PSLF) <https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service>
+- [ ] `cfpb-owning-a-home`: Buying a House: Tools and resources for homebuyers <https://www.consumerfinance.gov/owning-a-home/>
+- [ ] `cfpb-dti`: What is a debt-to-income ratio? <https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/>
+- [ ] `cfpb-pmi`: What is private mortgage insurance? <https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/>
+- [ ] `amar-et-al-2011`: Winning the Battle but Losing the War: The Psychology of Debt Management <https://doi.org/10.1509/jmkr.48.SPL.S38>
+- [ ] `gal-mcshane-2012`: Can Small Victories Help Win the War? Evidence from Consumer Debt Management <https://doi.org/10.1509/jmr.11.0272>
+- [ ] `kettle-et-al-2016`: Repayment Concentration and Consumer Motivation to Get Out of Debt <https://doi.org/10.1093/jcr/ucw037>
+- [ ] `uscourts-bankruptcy`: Bankruptcy Basics <https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics>
+- [ ] `doj-ust-counseling`: Credit Counseling & Debtor Education Courses <https://www.justice.gov/ust/credit-counseling-debtor-education-information>
+- [ ] `ftc-debt-relief`: How To Get Out of Debt <https://consumer.ftc.gov/articles/how-get-out-debt>
+- [ ] `cfpb-debt-collection`: Debt collection <https://www.consumerfinance.gov/consumer-tools/debt-collection/>
+- [ ] `jorda-et-al-2019`: The Rate of Return on Everything, 1870–2015 <https://doi.org/10.1093/qje/qjz012>
+- [ ] `ca-boe-property-tax`: California Property Tax: An Overview (Publication 29) <https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf>
+- [ ] `fred-case-shiller`: S&P CoreLogic Case-Shiller U.S. National Home Price Index (CSUSHPINSA) <https://fred.stlouisfed.org/series/CSUSHPINSA>
 
 ### Year-specific figures awaiting confirmation (6 of 6)
 
@@ -134,7 +159,7 @@ These were cited from well-known primary sources but the live page wasn't re-ope
 - Source: IRS: Topic no. 751, Social Security and Medicare withholding rates <https://www.irs.gov/taxtopics/tc751>
 - Source: SSA: Contribution and benefit base <https://www.ssa.gov/oact/cola/cbb.html>
 
-### Lesson review dates (10 published of 17 planned)
+### Lesson review dates (17 published of 17 planned)
 
 | Lesson | Last reviewed |
 | --- | --- |
@@ -148,3 +173,10 @@ These were cited from well-known primary sources but the live page wasn't re-ope
 | investing/retirement-math | 2026-10-04 |
 | investing/be-skeptical | 2026-10-04 |
 | budgeting/automation | 2026-10-04 |
+| credit/credit-scores | 2026-10-04 |
+| credit/building-credit | 2026-10-04 |
+| credit/how-interest-works | 2026-10-04 |
+| credit/loan-types | 2026-10-04 |
+| credit/debt-payoff | 2026-10-04 |
+| credit/rent-vs-buy | 2026-10-04 |
+| credit/getting-help | 2026-10-04 |
