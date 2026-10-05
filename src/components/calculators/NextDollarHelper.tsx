@@ -14,7 +14,7 @@ const why: Record<StepId, ReactNode> = {
   "employer-match": (
     <>
       A match is free money: a 50% match is an instant 50% return on those dollars, which no investment reliably beats.
-      Check whether your employer&apos;s match &quot;vests&quot; (becomes yours) over time <Cite id="irs-401k-plans" />.
+      Check whether your employer&apos;s match &quot;vests&quot; (becomes yours) over time <Cite id="irs-vesting" />.
     </>
   ),
   "high-interest-debt": (
@@ -48,7 +48,7 @@ const why: Record<StepId, ReactNode> = {
     <>
       Raise your 401(k), 403(b) or 457(b) contributions toward the employee limit of{" "}
       <Fig id="401k-elective-deferral-limit" />. Public employers often offer a 457(b), which has no 10%
-      early-withdrawal penalty after you leave the job <Cite id="irs-457b" />.
+      early-withdrawal penalty after you leave the job <Cite id="irs-topic-558" />.
     </>
   ),
   taxable: (

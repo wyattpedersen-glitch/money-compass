@@ -35,7 +35,7 @@ export function AmortizationCalculator({
     <CalculatorCard title="Loan payment calculator">
       <div className="grid gap-4 sm:grid-cols-2">
         <NumberField label="Amount borrowed" prefix="$" value={amount} onChange={setAmount} min={0} step={500} />
-        <NumberField label="APR" suffix="%" value={rate} onChange={setRate} min={0} max={40} step={0.1} />
+        <NumberField label="APR" suffix="%" value={rate} onChange={setRate} min={0} max={40} step={0.01} />
         <NumberField label="Length of loan" suffix="years" value={years} onChange={setYears} min={1} max={40} />
         <NumberField
           label="Extra paid each month"

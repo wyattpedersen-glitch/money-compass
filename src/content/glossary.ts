@@ -138,7 +138,7 @@ export const glossary: GlossaryTerm[] = [
     term: "401(k)",
     aliases: ["401k", "403(b)", "457(b)"],
     definition:
-      "A retirement savings account offered through an employer, where money comes straight out of your paycheck, often with tax benefits and sometimes a matching contribution from your employer. Public employers often offer similar 403(b) or 457(b) plans.",
+      "A tax-advantaged retirement savings account offered through an employer, where contributions come straight out of your paycheck, either before or after tax. 403(b) and 457(b) plans work similarly.",
     sourceId: "irs-401k-plans",
   },
   {
@@ -147,7 +147,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["individual retirement account", "traditional IRA"],
     definition:
       "A tax-advantaged retirement account you open yourself, separate from any employer. You generally need earned income (such as wages) to contribute.",
-    sourceId: "irs-iras",
+    sourceId: "irs-ira-limits",
   },
   {
     id: "roth-ira",
@@ -163,7 +163,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["fee-only fiduciary"],
     definition:
       "An advisor who is legally required to put your interests first. A fee-only fiduciary is paid only by you, not by commissions on products they sell you.",
-    sourceId: "cfpb-financial-advisor",
+    sourceId: "investor-gov-advisers",
   },
   {
     id: "credit-utilization",
@@ -185,7 +185,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["amortizing loan"],
     definition:
       "Paying off a loan with equal monthly payments. Early payments are mostly interest; later ones are mostly principal.",
-    sourceId: "cfpb-owning-a-home",
+    sourceId: "cfpb-amortization",
   },
   {
     id: "hard-inquiry",
@@ -201,7 +201,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["secured card"],
     definition:
       "A credit card backed by a cash deposit, which is usually your credit limit. It's a common way to start building credit.",
-    sourceId: "cfpb-credit-reports-scores",
+    sourceId: "cfpb-start-rebuild-credit",
   },
   {
     id: "grace-period",

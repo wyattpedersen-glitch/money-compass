@@ -29,11 +29,11 @@ Handy URLs while developing:
 
 ## Before you send the link to Daniel
 
-1. **Verify the sources and figures.** The content was written without live web access, so every link and every
-   year-specific number is marked unchecked. Work through `CONTENT_REVIEW.md`: open each link, confirm it supports the
-   claim, and set `checked: "YYYY-MM-DD"` on it in `src/content/sources.ts` (and on figures in `figures.ts` and
-   `taxFigures.ts`). Then run `npm run sources && npm run review`. Pay special attention to the 2026 tax brackets
-   and contribution limits, and to the post-July-2026 federal graduate loan limits.
+1. **Skim the four unchecked sources.** Every other link, claim and 2026 figure was checked against the live page on
+   2026-10-05 (`checked` in `src/content/sources.ts`, `figures.ts` and `taxFigures.ts`). The four left are listed in
+   `CONTENT_REVIEW.md`: three StudentAid.gov pages that only render in a browser, and one Bogleheads wiki page that
+   blocked automated access. Open each, confirm it supports the claim, set `checked`, then run
+   `npm run sources && npm run review`.
 2. **Set the passcode** (below).
 3. **Open the site on your phone** and try a lesson, the budget setup and a calculator.
 

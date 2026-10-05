@@ -19,6 +19,7 @@ export const figures: Figure[] = [
     taxYear: 2026,
     sourceUrl:
       "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+    checked: "2026-10-05",
     sourceTitle: "IRS: Retirement topics, 401(k) and profit-sharing plan contribution limits",
   },
   {
@@ -29,6 +30,7 @@ export const figures: Figure[] = [
     taxYear: 2026,
     sourceUrl:
       "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-catch-up-contributions",
+    checked: "2026-10-05",
     sourceTitle: "IRS: Retirement topics, catch-up contributions",
   },
   {
@@ -39,6 +41,7 @@ export const figures: Figure[] = [
     taxYear: 2026,
     sourceUrl:
       "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+    checked: "2026-10-05",
     sourceTitle: "IRS: Retirement topics, IRA contribution limits",
   },
   {
@@ -49,6 +52,7 @@ export const figures: Figure[] = [
     taxYear: 2026,
     sourceUrl:
       "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+    checked: "2026-10-05",
     sourceTitle: "IRS: Retirement topics, IRA contribution limits",
   },
   {
@@ -57,8 +61,9 @@ export const figures: Figure[] = [
     value: 4400,
     unit: "usd",
     taxYear: 2026,
-    sourceUrl: "https://www.irs.gov/publications/p969",
-    sourceTitle: "IRS Publication 969: Health Savings Accounts and Other Tax-Favored Health Plans",
+    sourceUrl: "https://www.irs.gov/pub/irs-drop/rp-25-19.pdf",
+    checked: "2026-10-05",
+    sourceTitle: "IRS Revenue Procedure 2025-19 (2026 HSA limits)",
   },
   {
     id: "hsa-limit-family",
@@ -66,8 +71,9 @@ export const figures: Figure[] = [
     value: 8750,
     unit: "usd",
     taxYear: 2026,
-    sourceUrl: "https://www.irs.gov/publications/p969",
-    sourceTitle: "IRS Publication 969: Health Savings Accounts and Other Tax-Favored Health Plans",
+    sourceUrl: "https://www.irs.gov/pub/irs-drop/rp-25-19.pdf",
+    checked: "2026-10-05",
+    sourceTitle: "IRS Revenue Procedure 2025-19 (2026 HSA limits)",
   },
 ];
 
