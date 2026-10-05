@@ -1,0 +1,45 @@
+import { LastReviewed } from "@/components/lesson/Boxes";
+import { siteConfig } from "@/config/site";
+
+<h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">About this site</h1>
+
+<LastReviewed date={siteConfig.siteLastReviewed} />
+
+Epicurus & Co. is a private guide to personal finance, made for one reader. It covers three areas: [budgeting](/budget/), [credit and debt](/credit/), and [investing](/investing/). It assumes you're smart but have never needed to learn the vocabulary.
+
+## How to read it
+
+Each lesson starts with why the topic matters to you, then explains the idea, then works through an example with real numbers. Where it helps, there's a calculator you can play with. Every lesson ends with key takeaways and common mistakes.
+
+Words with a dotted underline, like <Term id="apr">APR</Term>, open a short definition when you tap or hover them. The full list is in the [glossary](/glossary/).
+
+## How the sources work
+
+Every substantive claim, rule of thumb or statistic links to where it comes from. A citation looks like this: <Cite id="cfpb-emergency-fund" />. Tap it to see the full reference and a link to the original. Every reference is also listed on the [sources page](/sources/).
+
+The site prefers the strongest sources available. That means peer-reviewed research, primary government sources and regulators (such as the SEC, CFPB, FTC, Federal Reserve and IRS), and well-regarded practitioner research. Where experts genuinely disagree, the lesson lays out the main positions and what the evidence shows instead of quietly picking one.
+
+Some numbers, like retirement account contribution limits and tax brackets, change every year. Those always say which tax year they apply to and link to the IRS page that states them.
+
+## Written for the U.S.
+
+Dollars, credit scores, retirement accounts and tax rules on this site follow U.S. law and practice. Many of the principles, like diversification and keeping costs low, apply anywhere, but the specific accounts and rules differ in other countries.
+
+## Your data stays with you
+
+Anything you type into the budget, goals or tracker is saved only in your browser on the device you're using. Nothing is sent anywhere. That also means your phone and laptop each have their own copy, so use the backup on the [settings page](/settings/) to move it between them.
+
+<h2 id="disclaimer">Disclaimer: education, not advice</h2>
+
+This site is for education only. It explains how financial products and strategies generally work and what research has found about them. **It is not personalized financial, investment, tax or legal advice**, and nothing on it is a recommendation to buy or sell any particular investment.
+
+Your own situation (income, debts, taxes, family, health, goals) may change what's right for you. The calculators make simplifying assumptions that are spelled out in each one's "How this is calculated" panel. Their results are estimates, not predictions or guarantees.
+
+## When to talk to a professional
+
+Some situations are worth paying an expert for:
+
+- **A personalized investing or retirement plan.** Look for a <Term id="fiduciary">fee-only fiduciary</Term> advisor, who is required to act in your interest and is paid only by you, not by commissions. The CFPB explains how to check an advisor's background <Cite id="cfpb-financial-advisor" />.
+- **Debt you can't keep up with.** A nonprofit credit counselor can review your budget and options, often for free or at low cost. The NFCC is a large network of nonprofit agencies <Cite id="nfcc" />.
+- **Buying a home, or falling behind on rent or a mortgage.** HUD-approved housing counseling agencies offer free or low-cost help <Cite id="hud-housing-counselors" />.
+- **Taxes beyond a simple return.** Self-employment income, stock compensation, or anything unusual is worth a CPA or enrolled agent. The IRS has a guide to choosing one <Cite id="irs-choosing-tax-pro" />.
