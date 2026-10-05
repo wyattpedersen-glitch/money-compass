@@ -22,3 +22,14 @@ export function pct(decimal: number, digits = 1): string {
   if (!Number.isFinite(decimal)) return "—";
   return `${(decimal * 100).toFixed(digits).replace(/\.0+$/, "")}%`;
 }
+
+/** "2027-03" → "March 2027". */
+export function monthLabel(ym: string): string {
+  const [y, m] = ym.split("-").map(Number);
+  if (!y || !m) return ym;
+  return new Date(Date.UTC(y, m - 1, 15)).toLocaleDateString("en-US", {
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}

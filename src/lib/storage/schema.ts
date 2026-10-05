@@ -10,6 +10,41 @@ export const CURRENT_VERSION = 1;
 
 export const quizResultSchema = z.enum(["emergency-fund", "debt", "investing"]);
 
+const expenseSchema = z.looseObject({
+  id: z.string(),
+  name: z.string(),
+  amount: z.number(),
+  kind: z.enum(["need", "want"]),
+  fixed: z.boolean().default(false),
+});
+
+const goalSchema = z.looseObject({
+  id: z.string(),
+  type: z.enum(["emergency", "debt", "purchase", "retirement", "custom"]),
+  name: z.string(),
+  target: z.number(),
+  saved: z.number().default(0),
+  targetDate: z.string().regex(/^\d{4}-\d{2}$/),
+  apy: z.number().optional(),
+});
+
+const entrySchema = z.looseObject({
+  id: z.string(),
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  categoryId: z.string(),
+  amount: z.number(),
+  note: z.string().optional(),
+});
+
+export const budgetSchema = z.looseObject({
+  /** Monthly take-home pay. */
+  income: z.number().default(0),
+  expenses: z.array(expenseSchema).default([]),
+  goals: z.array(goalSchema).default([]),
+  framework: z.enum(["50-30-20", "zero-based", "pay-yourself-first"]).default("50-30-20"),
+  entries: z.array(entrySchema).default([]),
+});
+
 export const appDataSchema = z.looseObject({
   version: z.number().int().min(1),
   updatedAt: z.string().nullable().default(null),
@@ -26,9 +61,11 @@ export const appDataSchema = z.looseObject({
     })
     .nullable()
     .default(null),
+  budget: budgetSchema.default(() => budgetSchema.parse({})),
 });
 
 export type AppData = z.infer<typeof appDataSchema>;
+export type Budget = z.infer<typeof budgetSchema>;
 export type QuizResult = z.infer<typeof quizResultSchema>;
 
 export function emptyData(): AppData {

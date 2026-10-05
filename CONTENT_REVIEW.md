@@ -27,7 +27,7 @@ The IRS announces next year's retirement contribution limits around October or N
 
 ## Current status
 
-### Sources whose link and claim haven't been re-checked (72 of 72)
+### Sources whose link and claim haven't been re-checked (80 of 80)
 
 These were cited from well-known primary sources but the live page wasn't re-opened when the content was written. Check each, then set `checked` in `src/content/sources.ts`.
 
@@ -103,6 +103,14 @@ These were cited from well-known primary sources but the live page wasn't re-ope
 - [ ] `sec-variable-annuities`: Variable Annuities: What You Should Know <https://www.sec.gov/investor/pubs/varannty.htm>
 - [ ] `sec-iapd`: Investment Adviser Public Disclosure <https://adviserinfo.sec.gov/>
 - [ ] `sec-bitcoin-etp-2024`: Statement on the Approval of Spot Bitcoin Exchange-Traded Products <https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023>
+- [ ] `warren-tyagi-2005`: All Your Worth: The Ultimate Lifetime Money Plan <https://www.simonandschuster.com/books/All-Your-Worth/Elizabeth-Warren/9780743269872>
+- [ ] `pyhrr-1970`: Zero-base budgeting <https://hbr.org/1970/11/zero-base-budgeting>
+- [ ] `clason-1926`: The Richest Man in Babylon <https://www.gutenberg.org/ebooks/search/?query=richest+man+in+babylon>
+- [ ] `thaler-benartzi-2004`: Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving <https://doi.org/10.1086/380085>
+- [ ] `madrian-shea-2001`: The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior <https://doi.org/10.1162/003355301753265543>
+- [ ] `johnson-goldstein-2003`: Do Defaults Save Lives? <https://doi.org/10.1126/science.1091721>
+- [ ] `fed-shed`: Economic Well-Being of U.S. Households (Survey of Household Economics and Decisionmaking) <https://www.federalreserve.gov/consumerscommunities/shed.htm>
+- [ ] `cfpb-bank-statements`: Spending tracker (Your Money, Your Goals tool) <https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_spending-tracker_tool.pdf>
 
 ### Year-specific figures awaiting confirmation (6 of 6)
 
@@ -117,7 +125,16 @@ These were cited from well-known primary sources but the live page wasn't re-ope
 
 ⚠️ means the value hasn't been confirmed against the IRS page yet.
 
-### Lesson review dates (9 published of 17 planned)
+### Take-home pay estimator figures (tax year 2026) ⚠️ not yet confirmed
+
+- Single-filer brackets: 10% from $0, 12% from $12,400, 22% from $50,400, 24% from $105,700, 32% from $201,775, 35% from $256,225, 37% from $640,600
+- Standard deduction (single): $16,100
+- Social Security: 6.2% up to $184,500; Medicare: 1.45%
+- Source: IRS: Federal income tax rates and brackets <https://www.irs.gov/filing/federal-income-tax-rates-and-brackets>
+- Source: IRS: Topic no. 751, Social Security and Medicare withholding rates <https://www.irs.gov/taxtopics/tc751>
+- Source: SSA: Contribution and benefit base <https://www.ssa.gov/oact/cola/cbb.html>
+
+### Lesson review dates (10 published of 17 planned)
 
 | Lesson | Last reviewed |
 | --- | --- |
@@ -130,3 +147,4 @@ These were cited from well-known primary sources but the live page wasn't re-ope
 | investing/simple-portfolio | 2026-10-04 |
 | investing/retirement-math | 2026-10-04 |
 | investing/be-skeptical | 2026-10-04 |
+| budgeting/automation | 2026-10-04 |
