@@ -293,8 +293,8 @@ function CsvImport({ budget, onImport }: { budget: Budget; onImport: (rows: Budg
           <li>Choose the file below. It&apos;s read in your browser and never uploaded anywhere.</li>
         </ol>
         <p className="mt-2 text-sm text-muted">
-          Going through a month of transactions is also how the CFPB&apos;s spending tracker suggests getting started{" "}
-          <Cite id="cfpb-bank-statements" />.
+          Writing down every expense for a set period, up to a month, is also how the CFPB&apos;s spending tracker
+          suggests getting started <Cite id="cfpb-bank-statements" />.
         </p>
       </details>
       <div className="mt-4">

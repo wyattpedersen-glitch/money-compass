@@ -87,8 +87,8 @@ const pros: Record<Pro, { who: string; when: string; sourceId: string; href: str
   fiduciary: {
     who: "a fee-only fiduciary financial advisor",
     when: "for a personalized investment or retirement plan",
-    sourceId: "cfpb-financial-advisor",
-    href: "https://www.consumerfinance.gov/consumer-tools/retirement/choosing-financial-advisor/",
+    sourceId: "investor-gov-advisers",
+    href: "https://www.investor.gov/introduction-investing/getting-started/working-investment-professional/investment-advisers",
   },
   "credit-counselor": {
     who: "a nonprofit credit counselor",

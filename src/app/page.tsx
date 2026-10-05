@@ -3,6 +3,7 @@ import { Greeting } from "@/components/Greeting";
 import { siteConfig } from "@/config/site";
 import { isAvailable } from "@/content/routes";
 import { Disclaimer } from "@/components/lesson/Boxes";
+import { HomeQuizPrompt } from "@/components/quiz/HomeQuizPrompt";
 
 const sections = [
   {
@@ -40,6 +41,7 @@ export default function Home() {
         <p className="mt-2 text-muted">
           A suggested order for someone heading into grad school. Each step builds on the one before.
         </p>
+        <HomeQuizPrompt />
         <ol className="mt-6 space-y-3">
           {siteConfig.startHere.map((step, i) => {
             const ready = isAvailable(step.href);
@@ -75,6 +77,11 @@ export default function Home() {
             );
           })}
         </ol>
+        <p className="mt-4 text-sm">
+          <Link href="/progress/" className="text-accent underline underline-offset-2">
+            See your progress
+          </Link>
+        </p>
       </section>
 
       <section aria-labelledby="sections" className="mt-12">

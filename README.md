@@ -25,6 +25,17 @@ Handy URLs while developing:
 
 - `/?glitch=now` triggers the home page greeting's easter egg immediately. (It never runs if your device has
   "reduce motion" turned on.)
+- `/quiz/` is the optional "Where should I start?" quiz. `/progress/` shows completed lessons.
+
+## Before you send the link to Daniel
+
+1. **Skim the four unchecked sources.** Every other link, claim and 2026 figure was checked against the live page on
+   2026-10-05 (`checked` in `src/content/sources.ts`, `figures.ts` and `taxFigures.ts`). The four left are listed in
+   `CONTENT_REVIEW.md`: three StudentAid.gov pages that only render in a browser, and one Bogleheads wiki page that
+   blocked automated access. Open each, confirm it supports the claim, set `checked`, then run
+   `npm run sources && npm run review`.
+2. **Set the passcode** (below).
+3. **Open the site on your phone** and try a lesson, the budget setup and a calculator.
 
 ## Deploying to Vercel (free tier)
 
@@ -110,13 +121,29 @@ src/
     figures.ts         every year-specific number
     lessons.ts         list of lessons and their review dates
   lib/
-    finance/           calculator math (pure functions + tests)
+    finance/           investing calculator math (pure functions + tests)
+    budget/            budget plan, take-home pay, CSV import and tracker math
+    credit/            loan, debt payoff and rent-vs-buy math
+    quiz/              onboarding quiz scoring
     storage/           localStorage store, backup export/import
 tests/                 content-integrity, storage, gate, glitch and contrast tests
 ```
+
+## Accessibility
+
+The site targets WCAG 2.1 AA:
+
+- Color tokens are contrast-tested in both light and dark mode (`tests/contrast.test.ts`).
+- Every page was checked with axe-core (WCAG 2.1 A/AA plus best-practice rules) in light and dark mode, with no
+  violations remaining.
+- Charts have a text summary, a keyboard-reachable crosshair and a "Show the numbers as a table" view, and they never
+  rely on color alone.
+- Popovers work with hover, tap and keyboard, and close with Escape.
+- The glitch easter egg is disabled entirely when "reduce motion" is on.
 
 ## Customizing
 
 - **The "Start here" path** is in `src/config/site.ts` (`startHere`). Reorder or edit the steps there.
 - **The onboarding quiz** is skipped by default (`skipOnboardingQuiz: true` in the same file), so the home page goes
-  straight to the Start here path.
+  straight to the Start here path, with a small link to the optional quiz. Set it to `false` to show the quiz to
+  first-time visitors before the Start here path.

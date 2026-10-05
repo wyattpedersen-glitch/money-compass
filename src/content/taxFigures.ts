@@ -32,8 +32,8 @@ export const tax2026: TaxYearFigures = {
   medicareRate: 0.0145,
   sources: [
     {
-      label: "IRS: Federal income tax rates and brackets",
-      url: "https://www.irs.gov/filing/federal-income-tax-rates-and-brackets",
+      label: "IRS: Tax inflation adjustments for tax year 2026",
+      url: "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill",
     },
     {
       label: "IRS: Topic no. 751, Social Security and Medicare withholding rates",
@@ -41,4 +41,5 @@ export const tax2026: TaxYearFigures = {
     },
     { label: "SSA: Contribution and benefit base", url: "https://www.ssa.gov/oact/cola/cbb.html" },
   ],
+  checked: "2026-10-05",
 };

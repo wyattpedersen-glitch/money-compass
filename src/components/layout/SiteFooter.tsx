@@ -22,6 +22,16 @@ export function SiteFooter() {
         <nav aria-label="Footer">
           <ul className="flex flex-wrap gap-x-4 gap-y-1">
             <li>
+              <Link href="/progress/" className="underline underline-offset-2">
+                Progress
+              </Link>
+            </li>
+            <li>
+              <Link href="/quiz/" className="underline underline-offset-2">
+                Where to start
+              </Link>
+            </li>
+            <li>
               <Link href="/about/" className="underline underline-offset-2">
                 About
               </Link>
