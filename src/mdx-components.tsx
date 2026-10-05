@@ -15,6 +15,13 @@ import {
   WhyItMatters,
 } from "@/components/lesson/Boxes";
 
+import { CompoundCalculator } from "@/components/calculators/CompoundCalculator";
+import { DiversificationSim } from "@/components/calculators/DiversificationSim";
+import { FeeDragCalculator } from "@/components/calculators/FeeDragCalculator";
+import { NextDollarHelper } from "@/components/calculators/NextDollarHelper";
+import { AllocationTool } from "@/components/calculators/AllocationTool";
+import { RetirementCalculator } from "@/components/calculators/RetirementCalculator";
+
 const components: MDXComponents = {
   a: ({ href = "", children, ...rest }) =>
     href.startsWith("/") || href.startsWith("#") ? (
@@ -39,6 +46,12 @@ const components: MDXComponents = {
   SeeAPro,
   Disclaimer,
   Uncertain,
+  CompoundCalculator,
+  DiversificationSim,
+  FeeDragCalculator,
+  NextDollarHelper,
+  AllocationTool,
+  RetirementCalculator,
 };
 
 export function useMDXComponents(): MDXComponents {

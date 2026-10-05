@@ -1,0 +1,56 @@
+<WhyItMatters>
+Every investment involves risk, but not all risk is worth taking. Some risk is rewarded over time. Other risk, like betting heavily on one company, adds danger without adding expected return, and you can remove it almost for free. Knowing the difference is the most useful single idea in investing.
+</WhyItMatters>
+
+## What "risk" means here
+
+In investing, risk mostly means **uncertainty about what you'll end up with**. A savings account has very little: you know roughly what you'll have next year. A <Term id="stock">stock</Term> has a lot: it might rise 30% or fall 30% in a given year.
+
+Investors expect to be paid for accepting uncertainty. That's why, over long periods, stocks have earned more than safer assets like Treasury bills, though with much bigger swings along the way <Cite id="damodaran-returns" />. The next lesson covers the numbers.
+
+## Two kinds of risk
+
+It helps to split a stock's ups and downs into two parts:
+
+- **Market risk** affects nearly everything at once: recessions, interest rate changes, pandemics. You can't diversify it away. It is the risk investors are paid, on average, for bearing.
+- **Company-specific risk** belongs to one business: a failed product, a scandal, a lost lawsuit. It's unpredictable, and in a portfolio of many companies it largely cancels out. Some companies get unlucky while others get lucky.
+
+## Diversification: the closest thing to a free lunch
+
+In 1952, Harry Markowitz showed mathematically that a portfolio's risk depends not just on the risk of each holding but on how the holdings move *relative to each other* <Cite id="markowitz-1952" />. Combine investments that don't move in lockstep, and the portfolio's ups and downs shrink without reducing the average expected return. This is why <Term id="diversification">diversification</Term> is often called the only free lunch in finance. He later shared the Nobel Prize in economics, partly for this work.
+
+How many stocks is enough? A classic 1987 study found that the risk-reduction benefits of adding stocks continued well beyond the ten or so once commonly assumed, to at least 30 to 40 stocks <Cite id="statman-1987" />. Today, a single low-cost <Term id="index-fund">index fund</Term> can hold hundreds or thousands of companies, so you don't have to pick any.
+
+## Why one stock is riskier than it looks
+
+It's tempting to think a single great company is a safe bet. The long-run data say otherwise. A study of nearly every U.S. stock from 1926 to 2016 found that slightly more than four out of seven individual stocks earned less over their lifetimes than one-month Treasury bills, which are about as safe as investments get. The best-performing 4% of companies accounted for all of the stock market's net wealth creation over that period <Cite id="bessembinder-2018" />.
+
+So the market's strong long-run return comes from a small number of huge winners. If you own only a few stocks, you'll probably miss most of them. If you own the whole market, you're guaranteed to own them.
+
+<Example title="Worked example: the math of cancelling out">
+Imagine two companies, an umbrella maker and a sunscreen maker. In a rainy year the umbrella maker gains 30% and the sunscreen maker loses 10%. In a sunny year it's the reverse.
+
+Own only one, and you swing between +30% and −10%. Own half of each, and you get +10% every year: (30 − 10) ÷ 2. The average return is the same, but the swings disappear.
+
+Real stocks aren't perfect opposites, but they don't move in lockstep either. That's enough for much of the swing to cancel.
+</Example>
+
+Try it yourself. The simulation below gives every stock the *same* expected return. The only difference is how many you hold.
+
+<DiversificationSim />
+
+Notice two things. The single stock's range of outcomes is enormous. Its *typical* result is also lower, even though its expected yearly return is the same. That's because big losses hurt compounding more than equal gains help: a 50% loss needs a 100% gain to get back to even.
+
+<KeyTakeaways>
+- Market risk is rewarded over time. Company-specific risk mostly isn't, and diversification removes most of it.
+- Combining investments that don't move together lowers risk without lowering expected return (Markowitz).
+- Most individual stocks have historically underperformed Treasury bills. A few big winners drive the market's returns.
+- A broad index fund is the simplest way to own those winners without having to guess which they are.
+</KeyTakeaways>
+
+<CommonMistakes>
+- **Putting most of your money in one stock**, including your employer's stock. Your paycheck already depends on that company.
+- **Thinking 5 or 10 stocks is "diversified."** Research suggests you need far more, or a fund that holds them for you.
+- **Owning several funds that hold the same things.** Three U.S. large-company funds are not much more diversified than one.
+- **Expecting diversification to prevent losses.** It reduces company-specific risk. In a broad market crash, a diversified stock portfolio still falls.
+</CommonMistakes>

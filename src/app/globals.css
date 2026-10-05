@@ -24,6 +24,10 @@
   --info-bg: #e8f0fb;
   --info-text: #1d3f72;
   --focus: #1f5f4f;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --grid: #e7e4dd;
   color-scheme: light;
 }
 
@@ -45,6 +49,10 @@
   --info-bg: #182a44;
   --info-text: #b9d2f5;
   --focus: #9ad6c1;
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --grid: #2c312d;
   color-scheme: dark;
 }
 

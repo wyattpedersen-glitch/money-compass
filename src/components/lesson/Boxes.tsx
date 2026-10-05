@@ -75,9 +75,9 @@ export function ExpertsDisagree({ children }: { children: ReactNode }) {
 
 export function Uncertain({ children }: { children: ReactNode }) {
   return (
-    <p className="rounded-md border border-dashed border-border bg-surface-2 px-3 py-2 text-sm text-muted">
+    <div className="rounded-md border border-dashed border-border bg-surface-2 px-3 py-2 text-sm text-muted [&_p]:inline">
       <strong className="text-text">Note on certainty:</strong> {children}
-    </p>
+    </div>
   );
 }
 
@@ -115,7 +115,7 @@ export function SeeAPro({ kind, children }: { kind: Pro; children?: ReactNode })
   const p = pros[kind];
   return (
     <Box title="When to talk to a professional" tone="danger" icon="☎">
-      <p>
+      <div className="[&_p]:inline">
         {children ?? (
           <>
             Consider talking to {p.who} {p.when}.
@@ -125,7 +125,7 @@ export function SeeAPro({ kind, children }: { kind: Pro; children?: ReactNode })
           Where to find one<span className="sr-only"> (opens in a new tab)</span>
         </a>{" "}
         <Cite id={p.sourceId} />
-      </p>
+      </div>
     </Box>
   );
 }

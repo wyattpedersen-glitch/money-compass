@@ -22,6 +22,9 @@ const contentFiles = walk(src).filter((f) => /\.(mdx|tsx)$/.test(f));
 
 /** Which section a file's citations belong to on /sources. */
 function sectionOf(file: string): SectionId {
+  // Shared components can declare which section they belong to.
+  const declared = readFileSync(file, "utf8").match(/@section (investing|budgeting|credit|general)/);
+  if (declared) return declared[1] as SectionId;
   const rel = relative(src, file).split(sep).join("/");
   const m = rel.match(/^(?:content\/lessons|app)\/(investing|budget|budgeting|credit)\//);
   if (!m) return "general";
